@@ -1,0 +1,24 @@
+:root{
+    --pink:#C05670;
+}
+@font-face {
+    font-family: 'zeyada';
+    src: url(../assets/fonts/Zeyada-Regular.ttf);
+}
+
+.navbar{
+  background-color: transparent !important;
+}
+
+#logo{
+    font-family: 'zeyada';
+}
+
+#logo,ul li a {
+    color: var(--pink) !important;
+}
+
+
+.serachBtn {
+  background-color: var(--pink) !important;
+}
