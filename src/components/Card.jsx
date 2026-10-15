@@ -1,20 +1,19 @@
-import img1 from "../assets/serum_dropper.png";
-import img2 from "../assets/radiance_serum.png";
-import img3 from "../assets/lip_nectar.png";
-import img4 from "../assets/botanic_cleansing_gel.png";
 import "./Card.css";
 
-const Card = () => {
+const Card = ({img,title,description}) => {
   return (
     <>
-     <div className="card">
-  <img src="..." className="card-img-top" alt="..." />
-  <div className="card-body">
-    <h5 className="card-title">Card title</h5>
-    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-    <a href="#" className="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
+      <div className="card border-0 text-center">
+        <img src={img} className="card-img-top rounded-5 pt-2" id="cardImg" alt="images" />
+        <div className="card-body">
+          <h5 className="card-title">{title}</h5>
+          <p className="card-text">
+            {description}</p>
+          <a href="#" className="btn text-white w-100 rounded-3" id="btn">
+            Add to Cart
+          </a>
+        </div>
+      </div>
     </>
   );
 };

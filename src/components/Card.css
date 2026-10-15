@@ -1,12 +1,22 @@
-:root{
-    --card-pink:#67193A;
+:root {
+  --card-pink: #67193a;
 }
 
-#cardHeading{
-    font-family: serif !important;
-    color: var(--card-pink) !important;
+#cardHeading {
+  font-family: serif !important;
+  color: var(--card-pink) !important;
 }
 
-.card{
+.card {
     width: 18rem;
+}
+
+.card-img-top {
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-title{
+    color: var(--card-pink) !important;
 }
