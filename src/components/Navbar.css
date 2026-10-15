@@ -14,10 +14,13 @@
     font-family: 'zeyada';
 }
 
-#logo,ul li a {
+#logo {
     color: var(--pink) !important;
 }
 
+ul li a {
+    color: white !important;
+}
 
 .serachBtn {
   background-color: var(--pink) !important;

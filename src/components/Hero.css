@@ -1,0 +1,18 @@
+:root{
+    --hero-pink:#67193A;
+    --btn:#B35A74;
+}
+
+#heading{
+    font-family: serif;
+    color: var(--hero-pink) !important;
+}
+
+#paragraph{
+    font-family: sans-serif;
+    color: var(--hero-pink);
+}
+
+#btn{
+    background-color: var(--btn);
+}

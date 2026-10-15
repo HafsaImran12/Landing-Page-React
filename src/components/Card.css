@@ -1,0 +1,12 @@
+:root{
+    --card-pink:#67193A;
+}
+
+#cardHeading{
+    font-family: serif !important;
+    color: var(--card-pink) !important;
+}
+
+.card{
+    width: 18rem;
+}
