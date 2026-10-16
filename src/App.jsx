@@ -6,7 +6,7 @@ import img1 from "../src/assets/serum_dropper.png";
 import img2 from "../src/assets/radiance_serum.png";
 import img3 from "../src/assets/lip_nectar.png";
 import img4 from "../src/assets/botanic_cleansing_gel.png";
-import Sale from "./components/Sale";
+import SaleSection from "./components/SaleSection";
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
 
       {/* CARDS */}
 
-      <div className="container">
+      <div className="container mb-5">
         <h2 className="text-center pb-5 fs-1" id="cardHeading">
           Our Bestseller
         </h2>
@@ -34,7 +34,7 @@ function App() {
 
       {/* SALE SECTION */}
 
-      <Sale/>
+      <SaleSection/>
 
     </>
   );

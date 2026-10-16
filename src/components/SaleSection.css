@@ -1,0 +1,8 @@
+:root {
+  --sale-pink: #e7c5c9;
+}
+
+#saleSection {
+  background-color: var(--sale-pink) !important;
+}
+
