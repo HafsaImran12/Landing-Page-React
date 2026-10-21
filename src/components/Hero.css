@@ -3,6 +3,11 @@
     --btn:#B35A74;
 }
 
+#header{
+  background: url(../assets/hero.png) no-repeat;
+  background-size: cover;
+}
+
 #heading{
     font-family: serif;
     color: var(--hero-pink) !important;

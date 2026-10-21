@@ -19,7 +19,7 @@
 }
 
 ul li a {
-    color: white !important;
+    color: var(--pink) !important;
 }
 
 .serachBtn {

@@ -3,8 +3,8 @@ import "./Hero.css";
 const Hero = () => {
   return (
     <>
-      <div className="container-fluid">
-        <div className="px-4 py-5 my-5" id="hero">
+      <div className="container-fluid py-5" id="header">
+        <div className="px-4 my-5" id="hero">
           {" "}
           <h1 className="display-3 fw-bold" id="heading">
             Beauty that Begins <br /> with You
