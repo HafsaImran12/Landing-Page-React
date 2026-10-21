@@ -1,0 +1,27 @@
+:root {
+  --light-pink: #fae6e8;
+  --text-color: #843e56;
+  --star-color: #aa4c6e;
+}
+
+#review {
+  background-color: var(--light-pink);
+}
+
+#review h2,
+#review p {
+  color: var(--text-color);
+}
+
+.star {
+  color: var(--star-color);
+}
+
+#social{
+    color: white !important;
+}
+
+.socialLinks {
+  background-color: var(--text-color) !important;
+  border-radius: 50%;
+}

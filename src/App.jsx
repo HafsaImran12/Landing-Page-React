@@ -7,7 +7,7 @@ import img2 from "../src/assets/radiance_serum.png";
 import img3 from "../src/assets/lip_nectar.png";
 import img4 from "../src/assets/botanic_cleansing_gel.png";
 import SaleSection from "./components/SaleSection";
-import Review from "./components/Review";
+import Testimonial from "./components/Testimonial";
 
 function App() {
   return (
@@ -37,8 +37,8 @@ function App() {
 
       <SaleSection/>
 
-      {/* REVIEW SECTION */}
-      <Review/>
+      {/* TESTIMONIAL SECTION */}
+      <Testimonial/>
     </>
   );
 }
